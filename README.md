@@ -15,7 +15,7 @@
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Version 2.1.2
+# Daily Bad Known Hashes Version 2.1.2
 
 Verified SHA-256 hashes of malicious files with recent public malware-delivery evidence. This is a fresh collection; no data or history from the previous repository is imported.
 
