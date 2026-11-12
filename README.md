@@ -2,11 +2,11 @@
 
 🟢 **Healthy and operational**
 
-**Latest report:** [November 11, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/11/evidence.csv).
+**Latest report:** [November 12, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/12/evidence.csv).
 
-**Last successful IOC publication:** Confirmed 2026-11-12 00:23:23 UTC.
+**Last successful IOC publication:** Confirmed 2026-11-12 16:10 UTC (data commit; minute precision).
 
-**Overall health:** The 2026-11-11 set contains 2 validated SHA-256 malware hashes. Extended research and independent verification are complete for this publication; publication and GitHub readback checks passed.
+**Overall health:** The 2026-11-12 collection contains 1 validated SHA-256 malware hash. Research and independent review completed; data validation, publication and GitHub readback checks passed. Indexed evidence and inaccessible full provider reports limit coverage; the preferred daily count is not a verification requirement.
 
 **Daily schedule:** Active — 8:00 AM Pacific time (America/Los_Angeles).
 
@@ -25,7 +25,11 @@ Verified SHA-256 hashes of malicious files with recent public malware-delivery e
 README.md
 2026/
 ├── 11/
-│   └── 11/
+│   ├── 11/
+│   │   ├── sha256.txt
+│   │   ├── comma-delimited list.txt
+│   │   └── evidence.csv
+│   └── 12/
 │       ├── sha256.txt
 │       ├── comma-delimited list.txt
 │       └── evidence.csv
@@ -49,6 +53,8 @@ Every accepted hash must pass all checks:
 4. Verify the 64-character hexadecimal value, remove duplicates and retain dated source links and limitations in `evidence.csv`. Hold anything that cannot be checked.
 
 The initial collection uses URLhaus delivery evidence and independent Hatching Triage analysis. URLhaus records were available through the public search index; that limitation is recorded per hash. Source dates describe reported delivery, not continuous activity or newly created malware.
+
+The November 12 review also checked recent vendor investigations, government advisory searches and malware-delivery records. One additional file met the verification standard. Its independent Hatching Triage and Joe Sandbox findings were reproduced on an exact-hash MalwareBazaar entry available through the public search index; the full provider reports were inaccessible. Recent SCKit components and other candidates lacking separate exact-file analysis were held. The week's union now contains 3 hashes. Coverage limitations and conflicting verdicts are recorded in the evidence.
 
 ## Use
 
