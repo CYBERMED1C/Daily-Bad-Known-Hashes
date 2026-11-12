@@ -1,5 +1,20 @@
 # Daily-Bad-Known-Hashes
 
+🟢 **Healthy and operational**
+
+**Latest report:** [November 11, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/11/evidence.csv).
+
+**Last successful IOC publication:** Confirmed 2026-11-12 00:23:23 UTC.
+
+**Overall health:** The 2026-11-11 set contains 2 validated SHA-256 malware hashes. Extended research and independent verification are complete for this publication; publication and GitHub readback checks passed.
+
+**Daily schedule:** Active — 9:00 AM Pacific time (America/Los_Angeles).
+
+> [!IMPORTANT]
+> **TLP:CLEAR**
+>
+> Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
+
 **Version 2.1.1 · Collection started November 11, 2026**
 
 Verified SHA-256 hashes of malicious files with recent public malware-delivery evidence. This is a fresh collection; no data or history from the previous repository is imported.
