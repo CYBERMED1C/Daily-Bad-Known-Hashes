@@ -1,4 +1,4 @@
-# Daily-Bad-Known-Hashes
+## Live status
 
 🟢 **Healthy and operational**
 
