@@ -2,11 +2,11 @@
 
 🟢 **Healthy and operational**
 
-**Latest report:** [November 15, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/15/evidence.csv).
+**Latest report:** [November 16, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/16/evidence.csv).
 
-**Last successful IOC publication:** Confirmed 2026-11-15 16:05 UTC (data commit; minute precision).
+**Last successful IOC publication:** Confirmed 2026-11-16 16:18 UTC (data commit; minute precision).
 
-**Overall health:** The 2026-11-15 collection contains 1 validated new SHA-256 malware hash. Research, independent review, data validation, publication and GitHub readback checks passed. The accepted Mozi file has November 14 delivery evidence and older same-file sandbox behavior reviewed through public search-index snapshots; direct Triage reports were inaccessible. Other candidates were held or excluded where recent delivery, independent exact-file analysis or legitimate-use safety could not be established. The preferred daily count is not a verification requirement.
+**Overall health:** The 2026-11-16 collection contains 1 validated new SHA-256 malware hash. Research, independent review, data validation, publication and GitHub readback checks passed. The accepted Macfinger installer has November 11 delivery reported by SANS and separate exact-input Triage command traces. The source's delivery timezone is unavailable, so the UTC delivery field remains empty. The sandbox used Linux and did not demonstrate macOS payload execution. Other candidates were held or excluded where evidence or legitimate-use review was incomplete. The preferred daily count is not a verification requirement.
 
 **Daily schedule:** Active — 8:00 AM Pacific time (America/Los_Angeles).
 
@@ -41,11 +41,19 @@ README.md
 │   │   ├── sha256.txt
 │   │   ├── comma-delimited list.txt
 │   │   └── evidence.csv
-│   └── 15/
+│   ├── 15/
+│   │   ├── sha256.txt
+│   │   ├── comma-delimited list.txt
+│   │   └── evidence.csv
+│   └── 16/
 │       ├── sha256.txt
 │       ├── comma-delimited list.txt
 │       └── evidence.csv
-└── 46th week of 2026/
+├── 46th week of 2026/
+│   ├── sha256.txt
+│   ├── comma-delimited list.txt
+│   └── evidence.csv
+└── 47th week of 2026/
     ├── sha256.txt
     ├── comma-delimited list.txt
     └── evidence.csv
@@ -72,7 +80,9 @@ The November 13 review added five custom SCKit files tied to the November 11 del
 
 The November 14 review added 12 files across two supply-chain campaigns. Aikido and Endor bind the wfx script to November 10 delivery and credential theft. For Ethersphere, public capture records and independent code analysis establish November 9 delivery of the modified bee-js loader, wallet-stealing JavaScript, four custom Go backdoors, and the trojanized Swarm Desktop amd64 Debian package and its nested Electron archive. The package and archive are separate file indicators in one chain. Older backdoor analysis dates are distinguished from fresh delivery, and no present availability is claimed. Benign decoys, unmodified remote-management software, uninspected installers and unsupported indicators were excluded or held. That publication brought the weekly union to 20 hashes.
 
-The November 15 review added one Mozi ELF file observed in URLhaus delivery records on November 14. Independent Triage input-hash tables and successful behavioral runs identify the same exact file and show scanning, watchdog tampering and persistence. The sandbox evidence was reviewed through public search-index snapshots; direct reports were inaccessible. The older file bytes qualify through freshly researched delivery evidence. Broader vendor, government and delivery-record research did not establish additional complete pairs: Agent Tesla, GCleaner, ClickFix, GeoVision and Moldova campaign candidates were held where required evidence was missing; older-delivery campaigns, mining tools, a legitimate driver and a test file were excluded. The weekly union contains 21 hashes; earlier daily data remains unchanged.
+The November 15 review added one Mozi ELF file observed in URLhaus delivery records on November 14. Independent Triage input-hash tables and successful behavioral runs identify the same exact file and show scanning, watchdog tampering and persistence. The sandbox evidence was reviewed through public search-index snapshots; direct reports were inaccessible. The older file bytes qualify through freshly researched delivery evidence. Broader vendor, government and delivery-record research did not establish additional complete pairs: Agent Tesla, GCleaner, ClickFix, GeoVision and Moldova campaign candidates were held where required evidence was missing; older-delivery campaigns, mining tools, a legitimate driver and a test file were excluded. That publication completed week 46 with 21 hashes; earlier daily data remained unchanged.
+
+The November 16 review begins ISO week 47 with one Macfinger Bash installer. SANS documents the exact script in a November 11 ClickFix delivery; an independent Triage report submitted November 15 records the same input hash and commands for concealed payload staging and attempted shell-history removal. The source gives no delivery timezone, so the UTC delivery field is empty; all possible adjacent UTC dates still fall within the seven-day window. Triage ran the script on Linux, where the payload download failed, so this record does not claim macOS payload execution or credential theft. Broader current vendor, government and delivery-record searches did not establish additional complete pairs. Unsupported new payloads, older-delivery investigations, ordinary software, security tools and test or cleanup artifacts were held or excluded. Week 47 contains 1 hash; week 46 remains unchanged at 21.
 
 ## Use
 
