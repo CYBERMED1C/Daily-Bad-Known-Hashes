@@ -2,11 +2,11 @@
 
 🟢 **Healthy and operational**
 
-**Latest report:** [November 17, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/17/evidence.csv).
+**Latest report:** [November 18, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/18/evidence.csv).
 
-**Last successful IOC publication:** Confirmed 2026-11-17 16:21 UTC (data commit; minute precision).
+**Last successful IOC publication:** Confirmed 2026-11-18 16:07 UTC (data commit; minute precision).
 
-**Overall health:** The 2026-11-17 collection contains 8 validated new SHA-256 malware hashes, published in the dated data commit. Research, independent review, data validation and committed-file readback checks passed. The OPTIMJACK records pair exact HTTP response hashes from November 16 browser captures with separate analysis of malicious code. Public report HTML and search JSON were available; the URLscan full-result JSON API returned HTTP 403. These observations do not establish victim compromise or present availability. Other candidates were held where recent delivery or separate exact-file analysis was unsupported. The preferred daily count is not a verification requirement.
+**Overall health:** The 2026-11-18 collection contains 15 validated new SHA-256 malware hashes, published in the dated data commit. Research, independent review, data validation and committed-file readback checks passed. Ten poisoned web responses have November 13–16 HTTP delivery captures and separate exact-file analysis. Five agent-framework files have documented November 17 live-package acquisition and independent code analysis; victim installs are not established. Historical web-body findings are credited to Kirk/Ohey and hash-corroborated by Hudson Rock. Public report HTML was available; URLscan full-result JSON returned HTTP 403 and PyPI version JSON returned HTTP 404. These are dated observations, with no claim of present availability or victim compromise. Other candidates were held or excluded where required evidence or legitimate-use review was incomplete.
 
 **Daily schedule:** Active — 8:00 AM Pacific time (America/Los_Angeles).
 
@@ -49,7 +49,11 @@ README.md
 │   │   ├── sha256.txt
 │   │   ├── comma-delimited list.txt
 │   │   └── evidence.csv
-│   └── 17/
+│   ├── 17/
+│   │   ├── sha256.txt
+│   │   ├── comma-delimited list.txt
+│   │   └── evidence.csv
+│   └── 18/
 │       ├── sha256.txt
 │       ├── comma-delimited list.txt
 │       └── evidence.csv
@@ -88,7 +92,9 @@ The November 15 review added one Mozi ELF file observed in URLhaus delivery reco
 
 The November 16 review begins ISO week 47 with one Macfinger Bash installer. SANS documents the exact script in a November 11 ClickFix delivery; an independent Triage report submitted November 15 records the same input hash and commands for concealed payload staging and attempted shell-history removal. The source gives no delivery timezone, so the UTC delivery field is empty; all possible adjacent UTC dates still fall within the seven-day window. Triage ran the script on Linux, where the payload download failed, so this record does not claim macOS payload execution or credential theft. Broader current vendor, government and delivery-record searches did not establish additional complete pairs. Unsupported new payloads, older-delivery investigations, ordinary software, security tools and test or cleanup artifacts were held or excluded. That publication began week 47 with 1 hash; week 46 remained unchanged at 21.
 
-The November 17 review added eight OPTIMJACK JavaScript files: one theft payload, one minute-ly loader and six poisoned Optimizely project assets. November 16 URLscan HTTP response metadata binds each exact file to delivery. Separate Hudson Rock analysis identifies malicious code in those bytes. Only the poisoned variants are included; clean vendor assets and genuine dependencies are excluded. Government, vendor and delivery-record coverage also considered Gootloader, FaceStealer, Retadup/CoffeeLoader, Trigram, Phantom53, Agent Tesla and package-malware reports. Candidates lacking a qualifying recent exact-file delivery and separate analysis pair were held. The URLscan full-result JSON API returned HTTP 403; public report HTML supplied response hashes, status, dates and page context. Captures and static analysis do not prove victim compromise or continued availability. Week 47 now contains 9 hashes; week 46 remains unchanged at 21.
+The November 17 review added eight OPTIMJACK JavaScript files: one theft payload, one minute-ly loader and six poisoned Optimizely project assets. November 16 URLscan HTTP response metadata binds each exact file to delivery. Separate Hudson Rock analysis identifies malicious code in those bytes. Only the poisoned variants are included; clean vendor assets and genuine dependencies are excluded. Government, vendor and delivery-record coverage also considered Gootloader, FaceStealer, Retadup/CoffeeLoader, Trigram, Phantom53, Agent Tesla and package-malware reports. Candidates lacking a qualifying recent exact-file delivery and separate analysis pair were held. The URLscan full-result JSON API returned HTTP 403; public report HTML supplied response hashes, status, dates and page context. Captures and static analysis do not prove victim compromise or continued availability. That publication brought week 47 to 9 hashes; week 46 remained unchanged at 21.
+
+The November 18 review added 15 files across two supply-chain campaigns. Ten poisoned web responses comprise eight JavaScript files and two JSON widgets with injected loaders. Primary browser-capture metadata records exact response hashes, HTTP 200 status, dates and legitimate page context; the separate Hudson Rock report publishes Kirk/Ohey's body analysis and corroborates those hashes. The earlier BBC variant is distinct from the later embedded-fallback variant, and the legitimate Confiant initiator is excluded. Five agent-framework indicators identify two malicious wheels and three malicious internal Python files from the November 17 PyPI compromise. Firsthand live acquisition and dated vendor analysis establish package delivery, without establishing victim installs; separate providers bind the same files to credential theft or its loader. Bare-import PTH hooks, unchanged metadata, clean files and ordinary dependencies are excluded. Broader government, vendor and delivery-record research did not establish further qualifying pairs. URLscan full-result JSON returned HTTP 403, while public HTML provided response metadata; removed PyPI versions returned HTTP 404 from the version JSON endpoint. Week 47 now contains 24 hashes; week 46 remains unchanged at 21.
 
 ## Use
 
