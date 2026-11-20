@@ -1,12 +1,10 @@
 ## Live status
 
-🟢 **Healthy and operational**
+**Latest published data:** [November 18, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/18/evidence.csv)
 
-**Latest report:** [November 18, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/18/evidence.csv).
-
-**Last successful IOC publication:** Confirmed 2026-11-18 16:07 UTC (data commit; minute precision).
-
-**Overall health:** The 2026-11-18 collection contains 15 validated new SHA-256 malware hashes, published in the dated data commit. Research, independent review, data validation and committed-file readback checks passed. Ten poisoned web responses have November 13–16 HTTP delivery captures and separate exact-file analysis. Five agent-framework files have documented November 17 live-package acquisition and independent code analysis; victim installs are not established. Historical web-body findings are credited to Kirk/Ohey and hash-corroborated by Hudson Rock. Public report HTML was available; URLscan full-result JSON returned HTTP 403 and PyPI version JSON returned HTTP 404. These are dated observations, with no claim of present availability or victim compromise. Other candidates were held or excluded where required evidence or legitimate-use review was incomplete.
+- **Publication health:** 🟢 Published at 16:07 UTC. All three daily files and all three weekly files match the [GitHub data commit](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/commit/e0da6d909e80ec18fa2719a72c4b1f13c061f3c4).
+- **Hash validation health:** 🟢 All 15 SHA-256 hashes passed source, format, duplicate and cross-file checks. Reviewers found no unmodified legitimate tools among the listed files.
+- **Research collection health:** 🟢 Every hash has delivery evidence from the preceding seven days and independent analysis. The review used public reports where URLscan and PyPI API records were unavailable.
 
 **Daily schedule:** Active — 8:00 AM Pacific time (America/Los_Angeles).
 
