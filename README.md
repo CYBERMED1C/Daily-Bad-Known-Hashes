@@ -21,53 +21,23 @@ Verified SHA-256 hashes of malicious files with recent public malware-delivery e
 
 ## Structure
 
+This example shows one collection date and its weekly folder.
+
 ```text
 README.md
 2026/
 ├── 11/
-│   ├── 11/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 12/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 13/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 14/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 15/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 16/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   ├── 17/
-│   │   ├── sha256.txt
-│   │   ├── comma-delimited list.txt
-│   │   └── evidence.csv
-│   └── 18/
+│   └── 11/
 │       ├── sha256.txt
 │       ├── comma-delimited list.txt
 │       └── evidence.csv
-├── 46th week of 2026/
-│   ├── sha256.txt
-│   ├── comma-delimited list.txt
-│   └── evidence.csv
-└── 47th week of 2026/
+└── 46th week of 2026/
     ├── sha256.txt
     ├── comma-delimited list.txt
     └── evidence.csv
 ```
 
-Daily folders use the collection date in America/Los_Angeles. Weeks use ISO numbering, Monday through Sunday. November 11 is in week 46, November 9–15; this first collection covers November 11 onward. Future weekly folders follow the same naming pattern.
+Daily folders use the collection date in America/Los_Angeles. Weeks use ISO numbering, Monday through Sunday.
 
 Each weekly list is the sorted, deduplicated union of that week's daily lists from this repository. Both text formats contain the same hashes in the same order. Weekly evidence contains one row per hash, retaining the latest review. No earlier dates are backfilled.
 
