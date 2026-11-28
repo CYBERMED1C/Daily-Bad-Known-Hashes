@@ -1,12 +1,14 @@
 ## Live status
 
-**Latest published data:** [November 27, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/27/evidence.csv)
+**Latest published data:** [November 28, 2026](https://github.com/CYBERMED1C/Daily-Bad-Known-Hashes/blob/main/2026/11/28/evidence.csv)
 
-- **Publication health:** 🟢 Healthy — Daily and weekly files published at 2026-11-27 21:08 UTC were verified on GitHub.
-- **IOC validation health:** 🟢 Healthy — All 14 IOCs passed source, format, duplicate, legitimate-tool and cross-file checks.
-- **Research collection health:** 🟡 Warning — Expanded news, government and sandbox review used indexed URLhaus delivery records.
+- **Publication health:** 🟢 Healthy — Daily and weekly data for November 28 were verified on GitHub before branch publication.
+- **IOC validation health:** 🟢 Healthy — All 6 new SHA-256 hashes passed provenance, legitimate-tool, novelty and cross-file checks.
+- **Research collection health:** 🟡 Warning — News, government and vendor review used indexed URLhaus delivery evidence; some sources were inaccessible.
 
-**Daily schedule:** Active — 8:00 AM Pacific (America/Los_Angeles).
+**Last successful IOC publication:** 2026-11-28 16:17 UTC.
+
+**Daily schedule:** Active — 8:00 AM Pacific time (America/Los_Angeles).
 
 > [!IMPORTANT]
 > **TLP:CLEAR**
